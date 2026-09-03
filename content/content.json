@@ -1,6 +1,6 @@
 {
   "profile": {
-    "name": "Ryo Yamada",
+    "name": "Anma",
     "greeting": "Hai !!",
     "role": "Developer · Creator · Entrepreneur",
     "bio": "Aku suka membangun sesuatu dari ide menjadi project yang benar-benar bisa digunakan. Aku banyak bermain dengan web, bot, automation, dan berbagai eksperimen digital.",
@@ -42,8 +42,18 @@
         "JavaScript",
         "Automation"
       ],
-      "url": "#"
+      "url": "-"
     },
+    {
+      "title": "Telegram Bot",
+      "description": "Bot yang mempermudah transaksi serta berbagai kebutuhan sehari-hari, dengan sistem command, plugin, session, dan automation.",
+      "tags": [
+        "Node.js",
+        "JavaScript",
+        "Automation"
+      ],
+      "url": "https://t.me/zeropointttbot"
+    }, 
     {
       "title": "ZEROPOINT",
       "description": "Web top up dan digital store yang aku bangun untuk menyediakan berbagai produk digital dengan alur transaksi yang praktis.",
@@ -52,7 +62,7 @@
         "Top Up",
         "Digital Store"
       ],
-      "url": "#"
+      "url": "zeropointt.my.id"
     },
     {
       "title": "Digital Experiments",
@@ -62,7 +72,7 @@
         "Web",
         "Experiment"
       ],
-      "url": "#"
+      "url": "-"
     }
   ],
   "business": {
@@ -122,15 +132,15 @@
   "socials": [
     {
       "name": "GitHub · Ryo Yamada",
-      "url": "#"
+      "url": "-"
     },
     {
       "name": "Instagram",
-      "url": "#"
+      "url": "https://www.instagram.com/anmalas__?igsi=MXM4NTVwN3p4bzVmcQ=="
     },
     {
       "name": "WhatsApp",
-      "url": "#"
+      "url": "-"
     }
   ],
   "footer": "Built with curiosity, code & late-night ideas."
