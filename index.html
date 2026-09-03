@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#08090d">
+  <title>Anma — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="orb orb-a"></div><div class="orb orb-b"></div>
+
+  <nav class="nav" id="nav">
+    <a class="logo" href="#home">ANMA<span>.</span></a>
+    <div class="nav-links">
+      <a href="#about">About</a><a href="#work">Work</a><a href="#life">Life</a><a href="#music">Music</a>
+    </div>
+    <a class="nav-contact" href="#contact">Let's talk <span>↗</span></a>
+  </nav>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="status-dot"></span> Available for ideas & experiments</div>
+        <p class="hello" id="greeting">Hai !!</p>
+        <h1>I'm <span id="heroName">Anma</span>.<br><em id="heroRole">Developer · Creator · Entrepreneur</em></h1>
+        <p class="hero-bio" id="heroBio"></p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#work">See my work <span>↓</span></a>
+          <a class="btn ghost" href="#about">Get to know me</a>
+        </div>
+      </div>
+      <div class="hero-visual reveal delay-1">
+        <div class="motion-orbit" aria-hidden="true">
+          <div class="motion-glow"></div>
+          <div class="hero-motion" id="heroMotion"></div>
+        </div>
+        <div class="profile-mini"><img id="avatar" src="assets/profile.jpg" alt="Profile"></div>
+        <div class="floating-card card-code"><span>01</span><b>turning ideas</b><small>into something real.</small></div>
+        <div class="floating-card card-stack"><span>⌁</span><b>JS</b><b>WEB</b><b>BOT</b></div>
+      </div>
+      <div class="scroll-hint">SCROLL <span>↓</span></div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-label">01 — ABOUT</div>
+      <div class="about-grid">
+        <h2 id="aboutTitle">A little about me</h2>
+        <div><p class="big-text" id="aboutText"></p><p class="muted" id="location"></p></div>
+      </div>
+    </section>
+
+    <section class="section skills-section">
+      <div class="section-label">02 — WHAT I DO</div>
+      <div class="skills-grid" id="skills"></div>
+    </section>
+
+    <section class="section work" id="work">
+      <div class="section-head"><div class="section-label">03 — SELECTED WORK</div><p>Things I've built, explored, and learned from.</p></div>
+      <div class="project-list" id="projects"></div>
+    </section>
+
+    <section class="section business">
+      <div class="business-box"><div><div class="section-label">04 — BEYOND CODE</div><h2 id="businessTitle"></h2></div><p id="businessText"></p></div>
+    </section>
+
+    <section class="section life" id="life">
+      <div class="section-head"><div class="section-label">05 — LIFE</div><p>Not everything happens behind a screen.</p></div>
+      <div class="activity-grid" id="activities"></div>
+      <div class="hobby-row" id="hobbies"></div>
+    </section>
+
+    <section class="section music" id="music">
+      <div class="section-label">06 — MY MUSIC</div>
+      <div class="spotify-shell">
+        <div class="music-now">
+          <div class="album-wrap"><div class="album-glow"></div><img id="albumCover" src="assets/music-cover.svg" alt="Album cover"></div>
+          <div class="now-info"><span class="now-label">NOW PLAYING</span><h2 id="songTitle">Choose a song</h2><p id="songArtist">Your favorite tracks will live here.</p>
+            <div class="player"><div class="time"><span id="currentTime">0:00</span><span id="duration">0:00</span></div><input id="progress" type="range" min="0" max="100" value="0" aria-label="Progress"><div class="player-controls"><button id="prev" aria-label="Previous">⏮</button><button class="play" id="play" aria-label="Play">▶</button><button id="next" aria-label="Next">⏭</button></div></div>
+          </div>
+        </div>
+        <div class="playlist" id="playlist"><div class="empty-music">Tambahkan lagu favoritmu di <code>content/content.json</code>.<br>Cover dan file MP3 bisa kamu taruh di <code>assets/music/</code>.</div></div>
+      </div>
+      <audio id="audio" preload="metadata"></audio>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="section-label">07 — CONTACT</div><h2>Got an idea?<br><span>Let's build it.</span></h2>
+      <div class="socials" id="socials"></div>
+    </section>
+  </main>
+
+  <footer><span id="footerText"></span><span>© <span id="year"></span> ANMA</span></footer>
+  <script>window.PORTFOLIO_CONTENT = {"profile":{"name":"Anma","greeting":"Hai !!","role":"Developer · Creator · Entrepreneur","bio":"Seorang anak SMA yang tertarik dengan dunia developer dan teknologi. Suka menuangkan ide menjadi project nyata dan terus belajar sedikit demi sedikit melalui berbagai eksperimen.","location":"Indonesia","avatar":"assets/profile.jpg"},"about":{"title":"A little about me","text":"Seorang anak SMA yang tertarik dengan dunia developer dan teknologi. Suka menuangkan ide menjadi project nyata dan terus belajar sedikit demi sedikit melalui berbagai eksperimen, mulai dari bot, website, hingga project digital lainnya."},"skills":[{"name":"JavaScript","level":"Learning"},{"name":"Node.js","level":"Learning"},{"name":"HTML / CSS","level":"Comfortable"},{"name":"Automation","level":"Exploring"},{"name":"UI / Web","level":"Exploring"}],"projects":[{"title":"WhatsApp Bot","description":"Sedang dalam maintenance.","tags":["WhatsApp","Maintenance"],"url":"#","status":"Maintenance"},{"title":"Telegram Bot","description":"Bot Telegram untuk membantu berbagai kebutuhan digital dan transaksi dengan alur yang praktis.","tags":["Telegram","Bot","Automation"],"url":"https://t.me/zeropointttbot"},{"title":"ZEROPOINT","description":"Web top up dan digital store yang dibangun untuk menyediakan berbagai produk digital dengan alur transaksi yang praktis.","tags":["Web","Top Up","Digital Store"],"url":"https://zeropointt.my.id"}],"business":{"title":"ZEROPOINT","text":"Salah satu project bisnis yang aku bangun adalah ZEROPOINT, sebuah web top up dan digital store yang menggabungkan teknologi dengan kebutuhan transaksi digital."},"activities":[{"title":"Building","description":"Membangun bot, web, dan sistem digital dari ide sendiri.","image":"assets/activity-building.jpg"},{"title":"Coding","description":"Ngulik JavaScript, Node.js, API, dan hal-hal baru yang bikin penasaran.","image":"assets/activity-coding.jpg"},{"title":"Music","description":"Dengerin lagu sambil coding, ngulik project, atau sekadar santai.","image":"assets/activity-music.jpg"}],"hobbies":["Coding","Gaming","Music","Web Design","Exploring Tech","Anime"],"music":[{"title":"Night Demo","artist":"Anma — Demo","cover":"assets/music/cover-night.svg","file":"assets/music/demo-night.mp3"},{"title":"Code Demo","artist":"Anma — Demo","cover":"assets/music/cover-code.svg","file":"assets/music/demo-code.mp3"},{"title":"Chill Demo","artist":"Anma — Demo","cover":"assets/music/cover-chill.svg","file":"assets/music/demo-chill.mp3"}],"socials":[{"name":"GitHub · Anma","url":"https://github.com/Anmalass"},{"name":"Instagram · anmalas__","url":"https://www.instagram.com/anmalas__?igsi=MXM4NTVwN3p4bzVmcQ=="}],"footer":"Built with curiosity, code & late-night ideas."};</script>
+  <script src="js/app.js"></script>
+</body>
+</html>
