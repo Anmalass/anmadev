@@ -1,0 +1,128 @@
+{
+  "profile": {
+    "name": "Anma",
+    "greeting": "Hai !!",
+    "role": "Developer · Creator · Entrepreneur",
+    "bio": "Seorang anak SMA yang tertarik dengan dunia developer dan teknologi. Suka menuangkan ide menjadi project nyata dan terus belajar sedikit demi sedikit melalui berbagai eksperimen.",
+    "location": "Indonesia",
+    "avatar": "assets/profile.jpg"
+  },
+  "about": {
+    "title": "A little about me",
+    "text": "Seorang anak SMA yang tertarik dengan dunia developer dan teknologi. Suka menuangkan ide menjadi project nyata dan terus belajar sedikit demi sedikit melalui berbagai eksperimen, mulai dari bot, website, hingga project digital lainnya."
+  },
+  "skills": [
+    {
+      "name": "JavaScript",
+      "level": "Learning"
+    },
+    {
+      "name": "Node.js",
+      "level": "Learning"
+    },
+    {
+      "name": "HTML / CSS",
+      "level": "Comfortable"
+    },
+    {
+      "name": "Automation",
+      "level": "Exploring"
+    },
+    {
+      "name": "UI / Web",
+      "level": "Exploring"
+    }
+  ],
+  "projects": [
+    {
+      "title": "WhatsApp Bot",
+      "description": "Sedang dalam maintenance.",
+      "tags": [
+        "WhatsApp",
+        "Maintenance"
+      ],
+      "url": "#",
+      "status": "Maintenance"
+    },
+    {
+      "title": "Telegram Bot",
+      "description": "Bot Telegram untuk membantu berbagai kebutuhan digital dan transaksi dengan alur yang praktis.",
+      "tags": [
+        "Telegram",
+        "Bot",
+        "Automation"
+      ],
+      "url": "https://t.me/zeropointttbot"
+    },
+    {
+      "title": "ZEROPOINT",
+      "description": "Web top up dan digital store yang dibangun untuk menyediakan berbagai produk digital dengan alur transaksi yang praktis.",
+      "tags": [
+        "Web",
+        "Top Up",
+        "Digital Store"
+      ],
+      "url": "https://zeropointt.my.id"
+    }
+  ],
+  "business": {
+    "title": "ZEROPOINT",
+    "text": "Salah satu project bisnis yang aku bangun adalah ZEROPOINT, sebuah web top up dan digital store yang menggabungkan teknologi dengan kebutuhan transaksi digital."
+  },
+  "activities": [
+    {
+      "title": "Building",
+      "description": "Membangun bot, web, dan sistem digital dari ide sendiri.",
+      "image": "assets/activity-building.jpg"
+    },
+    {
+      "title": "Coding",
+      "description": "Ngulik JavaScript, Node.js, API, dan hal-hal baru yang bikin penasaran.",
+      "image": "assets/activity-coding.jpg"
+    },
+    {
+      "title": "Music",
+      "description": "Dengerin lagu sambil coding, ngulik project, atau sekadar santai.",
+      "image": "assets/activity-music.jpg"
+    }
+  ],
+  "hobbies": [
+    "Coding",
+    "Gaming",
+    "Music",
+    "Web Design",
+    "Exploring Tech",
+    "Anime"
+  ],
+  "music": [
+    {
+      "title": "Night Demo",
+      "artist": "Anma — Demo",
+      "cover": "assets/music/cover-night.svg",
+      "file": "assets/music/demo-night.mp3"
+    },
+    {
+      "title": "Code Demo",
+      "artist": "Anma — Demo",
+      "cover": "assets/music/cover-code.svg",
+      "file": "assets/music/demo-code.mp3"
+    },
+    {
+      "title": "Chill Demo",
+      "artist": "Anma — Demo",
+      "cover": "assets/music/cover-chill.svg",
+      "file": "assets/music/demo-chill.mp3"
+    }
+  ],
+  "socials": [
+    {
+      "name": "GitHub · Anma",
+      "url": "https://github.com/Anmalass"
+    },
+    {
+      "name": "Instagram · anmalas__",
+      "url": "https://www.instagram.com/anmalas__?igsi=MXM4NTVwN3p4bzVmcQ=="
+    }
+  ],
+  "footer": "Built with curiosity, code & late-night ideas."
+}
