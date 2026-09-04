@@ -96,22 +96,22 @@
   ],
   "music": [
     {
-      "title": "Night Demo",
-      "artist": "Anma — Demo",
+      "title": "Earrings",
+      "artist": "Malcolm Todd",
       "cover": "assets/music/cover-night.svg",
-      "file": "assets/music/demo-night.mp3"
+      "file": "assets/music/Malcolm Todd - Earrings.mp3"
     },
     {
-      "title": "Code Demo",
-      "artist": "Anma — Demo",
+      "title": "Nope your too late i already died",
+      "artist": "wifiskeleton,i wanna be a jack-o-lantern",
       "cover": "assets/music/cover-code.svg",
-      "file": "assets/music/demo-code.mp3"
+      "file": "assets/music/wifiskeleton, i wanna be a jack-o-lantern - Nope your too late i already died _ Lyrics _ 8D Audio.mp3"
     },
     {
-      "title": "Chill Demo",
-      "artist": "Anma — Demo",
+      "title": "Mirors Demo",
+      "artist": "overtonight throwaways, overtonight",
       "cover": "assets/music/cover-chill.svg",
-      "file": "assets/music/demo-chill.mp3"
+      "file": "assets/music/mirrors demo.mp3"
     }
   ],
   "socials": [
